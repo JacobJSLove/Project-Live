@@ -1,0 +1,407 @@
+/*	Reset CSS	*/
+button:focus {
+    border: none;
+outline: 0 !important;
+}
+button{
+	border: none;
+}
+
+
+
+
+html, body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?');
+  src: url('../font/fontello.eot?#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?') format('woff2'),
+       url('../font/fontello.woff?') format('woff'),
+       url('../font/fontello.ttf?') format('truetype'),
+       url('../font/fontello.svg?#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: 'fontello';
+    font-style: normal;
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+      font-variant: normal;
+  text-transform: none;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.container-wrapper {
+/*	---- Should be ----
+	position: relative;
+	display: inline-block;*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.container-profile{
+	width: 320px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	        box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	border-radius: 5px;
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	display: inline-block;
+}
+.container-profile::before{
+	position: absolute;
+	top: 0;
+	content: '';
+	width: 100%;
+	height: 95px;
+	background: #002C71;
+	border-radius: 5px 5px 0 0;
+	z-index: 0;
+}
+.profile-main_top{
+	margin:36px 20px 0 17px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	        box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	border-radius: 5px;
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.profile-main_top::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.profile-main_top ul {
+	list-style-type: none;
+	margin:35px 0 0 0;
+	padding:0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.profile-main_top li {
+	text-align: center;
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0;
+            flex: 1 0;
+}
+.profile-main_top li::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+	background-color: #f4f4f4;
+    left: 0;
+    top: 0;
+}
+.profile-main_top li:first-child::after{
+	display: none;
+}
+.profile-main_top li h5 {
+	font-family: Montserrat;
+	font-size: 24px;
+	color: #FFA640;
+	font-weight: normal;
+	letter-spacing: 0;
+	margin: 0;
+}
+.profile-main_top li p{
+	font-family: Montserrat;
+	font-size: 10px;
+	color: #aab9d0;
+	letter-spacing: 0;
+	line-height: 16px;
+	margin:0;
+}
+.profile-main_top figure{
+	margin:0;
+}
+.profile-main_top figure img {
+	position: absolute;
+	top: -48px;
+	left: 50%;
+-webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+	-o-object-fit: cover;
+	   object-fit: cover;
+	border-radius: 50%;
+}
+.profile-main_top figcaption .share{
+	font-size:10.1px; 
+	position: absolute;
+	right: 11.9px;
+	top: 11.9px;
+	padding: 0;
+	margin: 0;
+	color: #FFA640;
+	cursor: pointer;
+}
+.profile-main_top figcaption .like{
+	font-size: 12px;
+	color: #D3D3D3;
+	clear: both;
+	position: relative;
+    left: 13px;
+    top: 38px;
+    cursor: pointer;
+}
+.profile-main_top figcaption::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.profile-main_top figcaption h1,h2 {
+	font-family: Montserrat;
+	font-weight: normal;
+}
+.profile-main_wrapper{
+    float: left;
+    padding-top: 38px;
+    position: relative;
+    	left: 50%;
+-webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+}
+.profile-main_name{	
+	margin: 0;
+	font-size: 18px;
+	color: #002C71;
+	letter-spacing: 0;
+}
+.profile-main_city{
+	font-size: 12px;
+	color: #8298b9;
+	letter-spacing: 0;
+	margin: 0;
+	padding: 0;
+}
+.profile-main_top button{
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 21px;
+	margin-bottom: 17px;
+  	background: #FFA640;
+	border-radius: 100px;
+	width: 248px;
+	height: 46px;
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 4.2px;
+}
+.icon-heart-empty:before { content: '\e800'; } 
+.icon-heart:before { content: '\e801'; } 
+.icon-export:before { content: '\e802'; }
+.profile-comments {
+	margin: 15px 19px 0 17px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	        box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	border-radius: 5px 5px 0 0;
+	
+	overflow: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+}
+.profile-comments::after{
+padding: 0 0 4px 0;
+	overflow: hidden;
+content: '';
+}
+.profile-comments_more {
+	margin:25px 0 25px 0;
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 14px;
+	color: #FFA640;
+	text-align: center;
+	letter-spacing: 0;
+	text-decoration: underline;
+}
+.profile-comments ul {
+	padding:0;
+	margin:0;
+	position: relative;
+	right: 6px;
+	bottom: 6px;
+	height: 50vh;
+	overflow-y: scroll;
+}
+.profile-comments article{
+	overflow: hidden;
+}
+.profile-comments li{
+list-style-type: none;
+margin: 0;
+}
+.profile-comments_wrapper{
+	margin:20px 9px 20px 20px;
+	display: inline-block;
+	width: calc(100% - 29px);
+}
+.profile-comments li::after{
+	content: '';
+    height: 2px;
+    width: auto;
+	background-color: #EBEBEB;
+    position: absolute;
+    left: 0;
+    width: 90%;
+}
+.profile-comments li:last-child::after{
+display: none;
+}
+.profile-comments img{
+	-o-object-fit: cover;
+	   object-fit: cover;
+	border-radius: 50%;
+	float: left;
+	margin-right: 11px;
+}
+.profile-comments ul h5 {
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 14px;
+	color: #002C71;
+	letter-spacing: 0;
+	display: inline-block;
+	margin: 10px 0 0 0;
+}
+.profile-comments ul p {
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 14px;
+	color: #444444;
+	letter-spacing: 0;
+	line-height: 21px;
+	margin: 0;
+}
+.date {
+	opacity: 0.5;
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 14px;
+	color: #002C71;
+	letter-spacing: 0;
+	float: right;
+	margin: 10px 0 0 0;
+}
+.profile-comments_new-wrapper {
+	position: absolute;
+	top: 100%;
+	left: 17px;
+    right: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	-webkit-box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+	        box-shadow: 0 0 4px 0 rgba(172,172,172,0.50);
+}
+.profile-comments_new {
+	margin: 15px 34px 19px 25px;
+	border: none;
+	font-family: Montserrat-Regular;
+	font-size: 18px;
+	color: #8298B9;
+	letter-spacing: 0;
+	-webkit-box-flex: 1;
+	    -ms-flex-positive: 1;
+	        flex-grow: 1;
+	border-bottom: 2px solid #DBE0E8;
+}
+.profile-comments_new::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8298B9;
+}
+.profile-comments_new:-ms-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8298B9;
+}
+.profile-comments_new::placeholder { /* Chrome/Opera/Safari */
+  color: #8298B9;
+}
+.popup {
+	font-size: 16px;
+	color: black;
+	position: absolute;
+    left: 10px;
+    top: -40px;
+    z-index: 999;
+    width: 300px;
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
+
+/*		ScrollBar		*/
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 5px;
+    right: -6px
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+	background:rgba(216, 216, 216, 0.3);
+	border-radius: 100px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	opacity: 0.12;
+	background: rgba(0, 44, 113, 0.12);
+	border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 44, 113, 0.12);
+}
+
+/*      Media Queries       */
+
+@media (min-width: 500px) { 
+.container-profile {width: 500px;}
+.profile-main_top{margin-right: 17px;text-align: left;}
+.profile-comments ul {height: 55vh;}
+.profile-main_top figure {width: 100%;display: -webkit-inline-box;display: -ms-inline-flexbox;display: inline-flex;}
+.profile-main_top img {position: unset !important;-webkit-transform:none !important;transform:none !important;top: auto;left: auto;margin: 20px 18px 0 20px;}
+.like {left: 10px;}
+.profile-main_top ul {display: -webkit-inline-box;display: -ms-inline-flexbox;display: inline-flex;margin: 20px 0 0 20px;width: calc(100% - 211px);}
+.profile-main_top button {margin:20px 22px 28px 35px;float:right;;width: 134px;}
+.profile-comments_more{text-align: left;margin: 25px 0 25px 20px;}
+.profile-comments ul p {margin: 1.5% 10% 0 0 ;}
+.profile-comments_new {margin: 9% 34px 7% 25px;}
+.profile-comments_wrapper {margin: 20px 9px 25px 20px;}
+}

@@ -1,0 +1,56 @@
+{"me_view": {
+		"name": "Mike Ross",
+		"img": "img/mike.jpg"
+	},
+"profile_view": {
+		"id": "1",
+		"comments": [{
+			"user-id": "1",
+			"name": "Harvey Specter",
+			"img": "img/harvey.jpg",
+			"text": "Quisque laoreet magna nec ultricies feugiat. Curabitur ut elementum lectus, sit amet vehicula massa. Cras viverra metus quis purus elementum, a elementum tortor volutpat. ",
+			"date": "2017-09-21"
+		},
+		{
+			"user-id": "1",
+			"name": "Mike Ross",
+			"img": "img/mike.jpg",
+			"text": "Fusce in nibh non est imperdiet lacinia. Donec ac eros semper, consequat dui non, imperdiet sem. Aliquam luctus dapibus metus. ",
+			"date": "2017-09-22"
+		},
+		{
+			"user-id": "1",
+			"name": "Harvey Specter",
+			"img": "img/harvey.jpg",
+			"text": "Quisque laoreet magna nec ultricies feugiat. Curabitur ut elementum lectus, sit amet vehicula massa. Cras viverra metus quis purus elementum, a elementum tortor volutpat. ",
+			"date": "2017-09-21"
+		},{
+			"user-id": "1",
+			"name": "Harvey Specter",
+			"img": "img/harvey.jpg",
+			"text": "Quisque laoreet magna nec ultricies feugiat. Curabitur ut elementum lectus, sit amet vehicula massa. Cras viverra metus quis purus elementum, a elementum tortor volutpat. ",
+			"date": "2017-09-21"
+		},
+		{
+			"user-id": "1",
+			"name": "Mike Ross",
+			"img": "img/mike.jpg",
+			"text": "Fusce in nibh non est imperdiet lacinia. Donec ac eros semper, consequat dui non, imperdiet sem. Aliquam luctus dapibus metus. ",
+			"date": "2017-09-22"
+		},
+		{
+			"user-id": "1",
+			"name": "Harvey Specter",
+			"img": "img/harvey.jpg",
+			"text": "Quisque laoreet magna nec ultricies feugiat. Curabitur ut elementum lectus, sit amet vehicula massa. Cras viverra metus quis purus elementum, a elementum tortor volutpat. ",
+			"date": "2017-09-21"
+		}
+		],
+		"name": "Harvey Specter",
+		"city": "New York, USA",
+		"img": "img/harvey.jpg",
+		"likes": "234",
+		"fallowing": "123",
+		"fallowers": "432",
+		"site": "www.mike-ross.com"
+}}
