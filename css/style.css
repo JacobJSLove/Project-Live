@@ -334,6 +334,7 @@ display: none;
 	font-size: 18px;
 	color: #8298B9;
 	letter-spacing: 0;
+	outline:none;
 	-webkit-box-flex: 1;
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
