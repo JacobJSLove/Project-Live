@@ -51,8 +51,8 @@ html, body {
 	position: relative;
 	display: inline-block;*/
 	position: absolute;
-    top: 50%;
-    left: 52%;
+    top: 53%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
